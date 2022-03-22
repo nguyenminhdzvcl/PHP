@@ -1,8 +1,8 @@
 <?php
-    function text($arr_name){
-        $arr_new = strtolower($arr_name);
-        $arr_new = ucwords($arr_new);
-        $data = explode(" ", $arr_new);
+    function text($name){
+        $name_new = strtolower($name);
+        $name_new = ucwords($name_new);
+        $data = explode(" ", $name_new);
         echo implode(" ",$data);
     }
     text('NGuyen sY MINh');
