@@ -3,12 +3,12 @@
         $data = strrev($str);
         
         if($str == $data){
-            $str." la chuoi Palindrome";
+            echo "Chuoi :".$str." la chuoi Palindrome";
         }
 
         else {
-            $str." khong phai la chuoi Palindrome"
-;        }
+            echo "Chuoi :".$str." khong phai la chuoi Palindrome";
+;       }
     }
     Palindrome('ZenttneZ');
 ?>
