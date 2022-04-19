@@ -1,6 +1,6 @@
 <?php 
     use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
+	  use PHPMailer\PHPMailer\Exception;
 	function send_email($email_recive,$name,$contents,$subject){
 		//https://www.google.com/settings/security/lesssecureapps
 		// Khai báo thư viên phpmailer
